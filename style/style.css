@@ -264,6 +264,9 @@ header {
   border-radius: 1rem;
 }
 
+.portfolio .image{
+  margin-top: 2.475rem;
+}
 .portfolio img:hover {
   scale: 110%;
   box-shadow: 0.1rem 0.1rem 0.5rem rgb(49, 49, 49);
@@ -284,6 +287,10 @@ header {
   border-radius: 1rem;
   background: rgba(255, 0, 0, 0.05);
   padding: 4.125rem 0;
+}
+
+.newsletter > p{
+  padding: 0 11rem;
 }
 
 .newsletter .third-heading-merry {
