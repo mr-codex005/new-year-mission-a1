@@ -16,6 +16,7 @@ button {
 }
 button:hover{
   scale: 110%;
+  box-shadow: 0.2rem 0.2rem 0.5rem #070211;
 }
 
 .main-heading {
@@ -161,6 +162,7 @@ header {
   font-weight: 700;
   font-size: 0.928125rem; /*82.5% of 1.125*/
   padding: 1.65rem 1.2375rem; /*82.5% of 3rem and 2rem*/
+  border-radius: 0.5rem;
 }
 .party-image {
   margin-top: 3.5145rem;
