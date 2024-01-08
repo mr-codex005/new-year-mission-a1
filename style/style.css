@@ -12,6 +12,10 @@
 
 button {
   cursor: pointer;
+  transition: all 0.5s;
+}
+button:hover{
+  scale: 110%;
 }
 
 .main-heading {
@@ -306,10 +310,13 @@ header {
   font-size: 1.03125rem;
   font-weight: 600;
   margin-left: 0;
-
   border-radius: 0 3.12rem 3.12rem 0;
+  transition: all 0.5s;
 }
 
+.sub-box input[type="submit"]:hover{
+  background-color: rgb(128, 2, 2);
+}
 /* footer section */
 footer{
   background: #070211;
@@ -328,6 +335,12 @@ footer p{
   padding-right: 7rem;
 }
 
+.p-r-7 p{
+  display: flex;
+  align-items: center;
+  gap: 0.825rem;
+}
+
 footer .social{
   margin: 2.47rem auto;
 }
@@ -342,5 +355,9 @@ footer .container{
 footer hr{
   background: #FFFFFF26;
   border: 1px solid #FFFFFF26;
+}
+
+footer a{
+  text-decoration: none;
 }
 
