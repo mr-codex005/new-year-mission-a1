@@ -195,3 +195,25 @@ header {
   border-radius: 0.5rem;
   margin-top: 2.475rem;
 }
+
+/* comming soon section  */
+
+.comming-soon{
+  display: flex;
+  align-items: center;
+}
+
+.col1 h4{
+  margin-bottom: 1rem;
+}
+
+.col2{
+  margin-left: 4rem;
+  margin-right: 6rem;
+}
+
+.col2 img{
+  border-radius: 50%;
+  padding: 3rem;
+  border: 1rem solid #f00;
+}
